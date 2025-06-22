@@ -1,0 +1,902 @@
+{
+  "de6ae87f-a461-4908-affe-0a40d41db8cf": {
+    "id": "de6ae87f-a461-4908-affe-0a40d41db8cf",
+    "name": "Product 1",
+    "description": "This is a sample product 1 with detailed description.",
+    "price": 13.49,
+    "image_url": "https://picsum.photos/300/300?random=1",
+    "created_at": "2025-06-21T15:30:23.233075",
+    "created_by": "system"
+  },
+  "7b7b762d-0834-4ff1-ac76-a81d4896fd06": {
+    "id": "7b7b762d-0834-4ff1-ac76-a81d4896fd06",
+    "name": "Product 2",
+    "description": "This is a sample product 2 with detailed description.",
+    "price": 15.99,
+    "image_url": "https://picsum.photos/300/300?random=2",
+    "created_at": "2025-06-21T15:30:23.233100",
+    "created_by": "system"
+  },
+  "bb98cffd-6b3b-413d-ac34-00fb6817dbf9": {
+    "id": "bb98cffd-6b3b-413d-ac34-00fb6817dbf9",
+    "name": "Product 3",
+    "description": "This is a sample product 3 with detailed description.",
+    "price": 18.49,
+    "image_url": "https://picsum.photos/300/300?random=3",
+    "created_at": "2025-06-21T15:30:23.233107",
+    "created_by": "system"
+  },
+  "736d06ac-b442-4eea-903a-a9b5a7191a50": {
+    "id": "736d06ac-b442-4eea-903a-a9b5a7191a50",
+    "name": "Product 4",
+    "description": "This is a sample product 4 with detailed description.",
+    "price": 20.99,
+    "image_url": "https://picsum.photos/300/300?random=4",
+    "created_at": "2025-06-21T15:30:23.233120",
+    "created_by": "system"
+  },
+  "7f88d635-5e34-4a78-89be-56af06936b25": {
+    "id": "7f88d635-5e34-4a78-89be-56af06936b25",
+    "name": "Product 5",
+    "description": "This is a sample product 5 with detailed description.",
+    "price": 23.49,
+    "image_url": "https://picsum.photos/300/300?random=5",
+    "created_at": "2025-06-21T15:30:23.233127",
+    "created_by": "system"
+  },
+  "ce25a450-2fe6-4394-af18-f1a7771606de": {
+    "id": "ce25a450-2fe6-4394-af18-f1a7771606de",
+    "name": "Product 6",
+    "description": "This is a sample product 6 with detailed description.",
+    "price": 25.99,
+    "image_url": "https://picsum.photos/300/300?random=6",
+    "created_at": "2025-06-21T15:30:23.233133",
+    "created_by": "system"
+  },
+  "1c6fbf59-8105-40eb-b8c3-34600c221d17": {
+    "id": "1c6fbf59-8105-40eb-b8c3-34600c221d17",
+    "name": "Product 7",
+    "description": "This is a sample product 7 with detailed description.",
+    "price": 28.49,
+    "image_url": "https://picsum.photos/300/300?random=7",
+    "created_at": "2025-06-21T15:30:23.233139",
+    "created_by": "system"
+  },
+  "63aa3aef-c4ff-4bac-9cee-e46031b1126f": {
+    "id": "63aa3aef-c4ff-4bac-9cee-e46031b1126f",
+    "name": "Product 8",
+    "description": "This is a sample product 8 with detailed description.",
+    "price": 30.99,
+    "image_url": "https://picsum.photos/300/300?random=8",
+    "created_at": "2025-06-21T15:30:23.233149",
+    "created_by": "system"
+  },
+  "7c7cea28-73e4-44cd-8b84-0607b5e45fab": {
+    "id": "7c7cea28-73e4-44cd-8b84-0607b5e45fab",
+    "name": "Product 9",
+    "description": "This is a sample product 9 with detailed description.",
+    "price": 33.49,
+    "image_url": "https://picsum.photos/300/300?random=9",
+    "created_at": "2025-06-21T15:30:23.233156",
+    "created_by": "system"
+  },
+  "9bfc05da-436e-4ae7-a9f7-a9d2265affff": {
+    "id": "9bfc05da-436e-4ae7-a9f7-a9d2265affff",
+    "name": "Product 10",
+    "description": "This is a sample product 10 with detailed description.",
+    "price": 35.99,
+    "image_url": "https://picsum.photos/300/300?random=10",
+    "created_at": "2025-06-21T15:30:23.233162",
+    "created_by": "system"
+  },
+  "04ea4611-c741-4385-afa9-cefb03feaf01": {
+    "id": "04ea4611-c741-4385-afa9-cefb03feaf01",
+    "name": "Product 11",
+    "description": "This is a sample product 11 with detailed description.",
+    "price": 38.49,
+    "image_url": "https://picsum.photos/300/300?random=11",
+    "created_at": "2025-06-21T15:30:23.233168",
+    "created_by": "system"
+  },
+  "fb42b15c-f6a1-4e72-8ad7-1b6e751512f0": {
+    "id": "fb42b15c-f6a1-4e72-8ad7-1b6e751512f0",
+    "name": "Product 12",
+    "description": "This is a sample product 12 with detailed description.",
+    "price": 40.99,
+    "image_url": "https://picsum.photos/300/300?random=12",
+    "created_at": "2025-06-21T15:30:23.233177",
+    "created_by": "system"
+  },
+  "c2b6289f-0414-4b08-988d-ee74492ec2aa": {
+    "id": "c2b6289f-0414-4b08-988d-ee74492ec2aa",
+    "name": "Product 13",
+    "description": "This is a sample product 13 with detailed description.",
+    "price": 43.49,
+    "image_url": "https://picsum.photos/300/300?random=13",
+    "created_at": "2025-06-21T15:30:23.233182",
+    "created_by": "system"
+  },
+  "1b26e512-72c9-4f70-b1c2-d4af3b6c77ec": {
+    "id": "1b26e512-72c9-4f70-b1c2-d4af3b6c77ec",
+    "name": "Product 14",
+    "description": "This is a sample product 14 with detailed description.",
+    "price": 45.99,
+    "image_url": "https://picsum.photos/300/300?random=14",
+    "created_at": "2025-06-21T15:30:23.233190",
+    "created_by": "system"
+  },
+  "ed3d5d53-9666-4d55-943f-2c9b8ad0bbae": {
+    "id": "ed3d5d53-9666-4d55-943f-2c9b8ad0bbae",
+    "name": "Product 15",
+    "description": "This is a sample product 15 with detailed description.",
+    "price": 48.49,
+    "image_url": "https://picsum.photos/300/300?random=15",
+    "created_at": "2025-06-21T15:30:23.233195",
+    "created_by": "system"
+  },
+  "15c7eca8-5379-4d0d-99e0-ffbddf7cdfc6": {
+    "id": "15c7eca8-5379-4d0d-99e0-ffbddf7cdfc6",
+    "name": "Product 16",
+    "description": "This is a sample product 16 with detailed description.",
+    "price": 50.99,
+    "image_url": "https://picsum.photos/300/300?random=16",
+    "created_at": "2025-06-21T15:30:23.233200",
+    "created_by": "system"
+  },
+  "7831c287-d96e-49dd-b42d-effb326b19fc": {
+    "id": "7831c287-d96e-49dd-b42d-effb326b19fc",
+    "name": "Product 17",
+    "description": "This is a sample product 17 with detailed description.",
+    "price": 53.49,
+    "image_url": "https://picsum.photos/300/300?random=17",
+    "created_at": "2025-06-21T15:30:23.233206",
+    "created_by": "system"
+  },
+  "1c0b1c71-df6f-4007-b3e5-a7bb484b2853": {
+    "id": "1c0b1c71-df6f-4007-b3e5-a7bb484b2853",
+    "name": "Product 18",
+    "description": "This is a sample product 18 with detailed description.",
+    "price": 55.99,
+    "image_url": "https://picsum.photos/300/300?random=18",
+    "created_at": "2025-06-21T15:30:23.233211",
+    "created_by": "system"
+  },
+  "a7e33340-a89c-4302-a883-46deaeeefa47": {
+    "id": "a7e33340-a89c-4302-a883-46deaeeefa47",
+    "name": "Product 19",
+    "description": "This is a sample product 19 with detailed description.",
+    "price": 58.49,
+    "image_url": "https://picsum.photos/300/300?random=19",
+    "created_at": "2025-06-21T15:30:23.233216",
+    "created_by": "system"
+  },
+  "9fdca3f5-a0d0-4cad-ba45-8237ad71b0cc": {
+    "id": "9fdca3f5-a0d0-4cad-ba45-8237ad71b0cc",
+    "name": "Product 20",
+    "description": "This is a sample product 20 with detailed description.",
+    "price": 60.99,
+    "image_url": "https://picsum.photos/300/300?random=20",
+    "created_at": "2025-06-21T15:30:23.233221",
+    "created_by": "system"
+  },
+  "531df59b-8510-4e51-a566-b8d3ffbcfbd9": {
+    "id": "531df59b-8510-4e51-a566-b8d3ffbcfbd9",
+    "name": "Product 21",
+    "description": "This is a sample product 21 with detailed description.",
+    "price": 63.49,
+    "image_url": "https://picsum.photos/300/300?random=21",
+    "created_at": "2025-06-21T15:30:23.233226",
+    "created_by": "system"
+  },
+  "7d205e01-6395-4e34-aae0-33deb29023ff": {
+    "id": "7d205e01-6395-4e34-aae0-33deb29023ff",
+    "name": "Product 22",
+    "description": "This is a sample product 22 with detailed description.",
+    "price": 65.99,
+    "image_url": "https://picsum.photos/300/300?random=22",
+    "created_at": "2025-06-21T15:30:23.233234",
+    "created_by": "system"
+  },
+  "310cf5f1-d1b3-42dc-a6fb-0d8fcf0c0b88": {
+    "id": "310cf5f1-d1b3-42dc-a6fb-0d8fcf0c0b88",
+    "name": "Product 23",
+    "description": "This is a sample product 23 with detailed description.",
+    "price": 68.49,
+    "image_url": "https://picsum.photos/300/300?random=23",
+    "created_at": "2025-06-21T15:30:23.233239",
+    "created_by": "system"
+  },
+  "971e44d6-19a2-4be0-84d4-484f92bf2b68": {
+    "id": "971e44d6-19a2-4be0-84d4-484f92bf2b68",
+    "name": "Product 24",
+    "description": "This is a sample product 24 with detailed description.",
+    "price": 70.99,
+    "image_url": "https://picsum.photos/300/300?random=24",
+    "created_at": "2025-06-21T15:30:23.233244",
+    "created_by": "system"
+  },
+  "4e2c3c85-cd0a-4c71-b1bf-df90ef5b9e2a": {
+    "id": "4e2c3c85-cd0a-4c71-b1bf-df90ef5b9e2a",
+    "name": "Product 25",
+    "description": "This is a sample product 25 with detailed description.",
+    "price": 73.49,
+    "image_url": "https://picsum.photos/300/300?random=25",
+    "created_at": "2025-06-21T15:30:23.233249",
+    "created_by": "system"
+  },
+  "aa08816a-df0f-4389-ae58-1051029904f4": {
+    "id": "aa08816a-df0f-4389-ae58-1051029904f4",
+    "name": "Product 26",
+    "description": "This is a sample product 26 with detailed description.",
+    "price": 75.99,
+    "image_url": "https://picsum.photos/300/300?random=26",
+    "created_at": "2025-06-21T15:30:23.233255",
+    "created_by": "system"
+  },
+  "09c5bf75-578c-47aa-bdae-ab722bcb4b08": {
+    "id": "09c5bf75-578c-47aa-bdae-ab722bcb4b08",
+    "name": "Product 27",
+    "description": "This is a sample product 27 with detailed description.",
+    "price": 78.49,
+    "image_url": "https://picsum.photos/300/300?random=27",
+    "created_at": "2025-06-21T15:30:23.233260",
+    "created_by": "system"
+  },
+  "77434ed9-7f57-4879-98d3-8147b4929a8f": {
+    "id": "77434ed9-7f57-4879-98d3-8147b4929a8f",
+    "name": "Product 28",
+    "description": "This is a sample product 28 with detailed description.",
+    "price": 80.99,
+    "image_url": "https://picsum.photos/300/300?random=28",
+    "created_at": "2025-06-21T15:30:23.233267",
+    "created_by": "system"
+  },
+  "cf610c7f-87f2-4972-bb68-39176a0c59ac": {
+    "id": "cf610c7f-87f2-4972-bb68-39176a0c59ac",
+    "name": "Product 29",
+    "description": "This is a sample product 29 with detailed description.",
+    "price": 83.49,
+    "image_url": "https://picsum.photos/300/300?random=29",
+    "created_at": "2025-06-21T15:30:23.233272",
+    "created_by": "system"
+  },
+  "3edfe833-4f13-4a42-a28d-a81056d6c5f5": {
+    "id": "3edfe833-4f13-4a42-a28d-a81056d6c5f5",
+    "name": "Product 30",
+    "description": "This is a sample product 30 with detailed description.",
+    "price": 85.99,
+    "image_url": "https://picsum.photos/300/300?random=30",
+    "created_at": "2025-06-21T15:30:23.233277",
+    "created_by": "system"
+  },
+  "1f01d45e-cff3-40ec-9ea4-93da551b1dcd": {
+    "id": "1f01d45e-cff3-40ec-9ea4-93da551b1dcd",
+    "name": "Product 31",
+    "description": "This is a sample product 31 with detailed description.",
+    "price": 88.49,
+    "image_url": "https://picsum.photos/300/300?random=31",
+    "created_at": "2025-06-21T15:30:23.233283",
+    "created_by": "system"
+  },
+  "8d016146-1a9b-4961-9038-13001bc449cd": {
+    "id": "8d016146-1a9b-4961-9038-13001bc449cd",
+    "name": "Product 32",
+    "description": "This is a sample product 32 with detailed description.",
+    "price": 90.99,
+    "image_url": "https://picsum.photos/300/300?random=32",
+    "created_at": "2025-06-21T15:30:23.233288",
+    "created_by": "system"
+  },
+  "7e1c645a-ca73-4ece-9a44-68add3d095f9": {
+    "id": "7e1c645a-ca73-4ece-9a44-68add3d095f9",
+    "name": "Product 33",
+    "description": "This is a sample product 33 with detailed description.",
+    "price": 93.49,
+    "image_url": "https://picsum.photos/300/300?random=33",
+    "created_at": "2025-06-21T15:30:23.233293",
+    "created_by": "system"
+  },
+  "e852d2e4-c8a0-4cfe-845d-43e38ee79a9c": {
+    "id": "e852d2e4-c8a0-4cfe-845d-43e38ee79a9c",
+    "name": "Product 34",
+    "description": "This is a sample product 34 with detailed description.",
+    "price": 95.99,
+    "image_url": "https://picsum.photos/300/300?random=34",
+    "created_at": "2025-06-21T15:30:23.233298",
+    "created_by": "system"
+  },
+  "535b0436-acd7-4737-ac02-4b3bd802ad2c": {
+    "id": "535b0436-acd7-4737-ac02-4b3bd802ad2c",
+    "name": "Product 35",
+    "description": "This is a sample product 35 with detailed description.",
+    "price": 98.49,
+    "image_url": "https://picsum.photos/300/300?random=35",
+    "created_at": "2025-06-21T15:30:23.233306",
+    "created_by": "system"
+  },
+  "ebaa353e-2336-472e-b224-70ffc57959e6": {
+    "id": "ebaa353e-2336-472e-b224-70ffc57959e6",
+    "name": "Product 36",
+    "description": "This is a sample product 36 with detailed description.",
+    "price": 100.99,
+    "image_url": "https://picsum.photos/300/300?random=36",
+    "created_at": "2025-06-21T15:30:23.233311",
+    "created_by": "system"
+  },
+  "f881084d-fba1-4189-ae6b-634a46173f3b": {
+    "id": "f881084d-fba1-4189-ae6b-634a46173f3b",
+    "name": "Product 37",
+    "description": "This is a sample product 37 with detailed description.",
+    "price": 103.49,
+    "image_url": "https://picsum.photos/300/300?random=37",
+    "created_at": "2025-06-21T15:30:23.233317",
+    "created_by": "system"
+  },
+  "665dbbdf-7d2a-431f-a518-d66dd4e3e4c1": {
+    "id": "665dbbdf-7d2a-431f-a518-d66dd4e3e4c1",
+    "name": "Product 38",
+    "description": "This is a sample product 38 with detailed description.",
+    "price": 105.99,
+    "image_url": "https://picsum.photos/300/300?random=38",
+    "created_at": "2025-06-21T15:30:23.233322",
+    "created_by": "system"
+  },
+  "9c92596c-da8a-4cd4-89af-5cfaf2cbb6b1": {
+    "id": "9c92596c-da8a-4cd4-89af-5cfaf2cbb6b1",
+    "name": "Product 39",
+    "description": "This is a sample product 39 with detailed description.",
+    "price": 108.49,
+    "image_url": "https://picsum.photos/300/300?random=39",
+    "created_at": "2025-06-21T15:30:23.233327",
+    "created_by": "system"
+  },
+  "2bfb58f2-b8cd-435e-9117-a218f5dcd606": {
+    "id": "2bfb58f2-b8cd-435e-9117-a218f5dcd606",
+    "name": "Product 40",
+    "description": "This is a sample product 40 with detailed description.",
+    "price": 110.99,
+    "image_url": "https://picsum.photos/300/300?random=40",
+    "created_at": "2025-06-21T15:30:23.233332",
+    "created_by": "system"
+  },
+  "b703eae7-aa0c-4ba5-8f05-8e45c4389ca4": {
+    "id": "b703eae7-aa0c-4ba5-8f05-8e45c4389ca4",
+    "name": "Product 41",
+    "description": "This is a sample product 41 with detailed description.",
+    "price": 113.49,
+    "image_url": "https://picsum.photos/300/300?random=41",
+    "created_at": "2025-06-21T15:30:23.233339",
+    "created_by": "system"
+  },
+  "dccf9a92-9f94-41c4-91ac-50aef14eca80": {
+    "id": "dccf9a92-9f94-41c4-91ac-50aef14eca80",
+    "name": "Product 42",
+    "description": "This is a sample product 42 with detailed description.",
+    "price": 115.99,
+    "image_url": "https://picsum.photos/300/300?random=42",
+    "created_at": "2025-06-21T15:30:23.233344",
+    "created_by": "system"
+  },
+  "cd0e0094-34b0-4053-a6f0-8a746004264e": {
+    "id": "cd0e0094-34b0-4053-a6f0-8a746004264e",
+    "name": "Product 43",
+    "description": "This is a sample product 43 with detailed description.",
+    "price": 118.49,
+    "image_url": "https://picsum.photos/300/300?random=43",
+    "created_at": "2025-06-21T15:30:23.233350",
+    "created_by": "system"
+  },
+  "adf3da1c-75aa-465b-a13d-8ef309352b2a": {
+    "id": "adf3da1c-75aa-465b-a13d-8ef309352b2a",
+    "name": "Product 44",
+    "description": "This is a sample product 44 with detailed description.",
+    "price": 120.99,
+    "image_url": "https://picsum.photos/300/300?random=44",
+    "created_at": "2025-06-21T15:30:23.233356",
+    "created_by": "system"
+  },
+  "11a39649-67dc-45cb-9264-8dbbaea39c8e": {
+    "id": "11a39649-67dc-45cb-9264-8dbbaea39c8e",
+    "name": "Product 45",
+    "description": "This is a sample product 45 with detailed description.",
+    "price": 123.49,
+    "image_url": "https://picsum.photos/300/300?random=45",
+    "created_at": "2025-06-21T15:30:23.233361",
+    "created_by": "system"
+  },
+  "d41f96c4-32a4-4b79-938c-ca8c3549a0f5": {
+    "id": "d41f96c4-32a4-4b79-938c-ca8c3549a0f5",
+    "name": "Product 46",
+    "description": "This is a sample product 46 with detailed description.",
+    "price": 125.99,
+    "image_url": "https://picsum.photos/300/300?random=46",
+    "created_at": "2025-06-21T15:30:23.233366",
+    "created_by": "system"
+  },
+  "daacde36-fc92-4993-995a-0c46e94d6259": {
+    "id": "daacde36-fc92-4993-995a-0c46e94d6259",
+    "name": "Product 47",
+    "description": "This is a sample product 47 with detailed description.",
+    "price": 128.49,
+    "image_url": "https://picsum.photos/300/300?random=47",
+    "created_at": "2025-06-21T15:30:23.233371",
+    "created_by": "system"
+  },
+  "8fba78f1-cf35-4739-99f0-55bd584db49e": {
+    "id": "8fba78f1-cf35-4739-99f0-55bd584db49e",
+    "name": "Product 48",
+    "description": "This is a sample product 48 with detailed description.",
+    "price": 130.99,
+    "image_url": "https://picsum.photos/300/300?random=48",
+    "created_at": "2025-06-21T15:30:23.233379",
+    "created_by": "system"
+  },
+  "0224a092-4d21-42ae-a0c4-88372dbcc3c2": {
+    "id": "0224a092-4d21-42ae-a0c4-88372dbcc3c2",
+    "name": "Product 49",
+    "description": "This is a sample product 49 with detailed description.",
+    "price": 133.49,
+    "image_url": "https://picsum.photos/300/300?random=49",
+    "created_at": "2025-06-21T15:30:23.233384",
+    "created_by": "system"
+  },
+  "d2dd4e9d-2eef-4f39-b7d3-5082dea49ce1": {
+    "id": "d2dd4e9d-2eef-4f39-b7d3-5082dea49ce1",
+    "name": "Product 50",
+    "description": "This is a sample product 50 with detailed description.",
+    "price": 135.99,
+    "image_url": "https://picsum.photos/300/300?random=50",
+    "created_at": "2025-06-21T15:30:23.233389",
+    "created_by": "system"
+  },
+  "69cffe0f-3e94-471c-ae3a-e1fcab2d0a7d": {
+    "id": "69cffe0f-3e94-471c-ae3a-e1fcab2d0a7d",
+    "name": "Product 51",
+    "description": "This is a sample product 51 with detailed description.",
+    "price": 138.49,
+    "image_url": "https://picsum.photos/300/300?random=51",
+    "created_at": "2025-06-21T15:30:23.233397",
+    "created_by": "system"
+  },
+  "ec402b82-71b8-42e7-896b-d07404249c6a": {
+    "id": "ec402b82-71b8-42e7-896b-d07404249c6a",
+    "name": "Product 52",
+    "description": "This is a sample product 52 with detailed description.",
+    "price": 140.99,
+    "image_url": "https://picsum.photos/300/300?random=52",
+    "created_at": "2025-06-21T15:30:23.233403",
+    "created_by": "system"
+  },
+  "457f5116-0ca5-4080-8af5-b2acca4c7d43": {
+    "id": "457f5116-0ca5-4080-8af5-b2acca4c7d43",
+    "name": "Product 53",
+    "description": "This is a sample product 53 with detailed description.",
+    "price": 143.49,
+    "image_url": "https://picsum.photos/300/300?random=53",
+    "created_at": "2025-06-21T15:30:23.233408",
+    "created_by": "system"
+  },
+  "aa61cf3e-a649-4d4e-9023-47116038de9f": {
+    "id": "aa61cf3e-a649-4d4e-9023-47116038de9f",
+    "name": "Product 54",
+    "description": "This is a sample product 54 with detailed description.",
+    "price": 145.99,
+    "image_url": "https://picsum.photos/300/300?random=54",
+    "created_at": "2025-06-21T15:30:23.233413",
+    "created_by": "system"
+  },
+  "1c5c5367-65c2-4f59-9330-2ac32848d1d2": {
+    "id": "1c5c5367-65c2-4f59-9330-2ac32848d1d2",
+    "name": "Product 55",
+    "description": "This is a sample product 55 with detailed description.",
+    "price": 148.49,
+    "image_url": "https://picsum.photos/300/300?random=55",
+    "created_at": "2025-06-21T15:30:23.233418",
+    "created_by": "system"
+  },
+  "66e8daed-ee01-4971-99e2-c15f69b0fb4e": {
+    "id": "66e8daed-ee01-4971-99e2-c15f69b0fb4e",
+    "name": "Product 56",
+    "description": "This is a sample product 56 with detailed description.",
+    "price": 150.99,
+    "image_url": "https://picsum.photos/300/300?random=56",
+    "created_at": "2025-06-21T15:30:23.233426",
+    "created_by": "system"
+  },
+  "33e329b5-4882-47a6-8b37-fe1d96034b22": {
+    "id": "33e329b5-4882-47a6-8b37-fe1d96034b22",
+    "name": "Product 57",
+    "description": "This is a sample product 57 with detailed description.",
+    "price": 153.49,
+    "image_url": "https://picsum.photos/300/300?random=57",
+    "created_at": "2025-06-21T15:30:23.233431",
+    "created_by": "system"
+  },
+  "49b2dc4e-bd67-48d8-b072-98be7278bf59": {
+    "id": "49b2dc4e-bd67-48d8-b072-98be7278bf59",
+    "name": "Product 58",
+    "description": "This is a sample product 58 with detailed description.",
+    "price": 155.99,
+    "image_url": "https://picsum.photos/300/300?random=58",
+    "created_at": "2025-06-21T15:30:23.233436",
+    "created_by": "system"
+  },
+  "9960a377-bcef-4962-a9f6-732ef1b3643f": {
+    "id": "9960a377-bcef-4962-a9f6-732ef1b3643f",
+    "name": "Product 59",
+    "description": "This is a sample product 59 with detailed description.",
+    "price": 158.49,
+    "image_url": "https://picsum.photos/300/300?random=59",
+    "created_at": "2025-06-21T15:30:23.233441",
+    "created_by": "system"
+  },
+  "ff90f9ef-c4b2-4239-a4f6-2b78574dfd5d": {
+    "id": "ff90f9ef-c4b2-4239-a4f6-2b78574dfd5d",
+    "name": "Product 60",
+    "description": "This is a sample product 60 with detailed description.",
+    "price": 160.99,
+    "image_url": "https://picsum.photos/300/300?random=60",
+    "created_at": "2025-06-21T15:30:23.233447",
+    "created_by": "system"
+  },
+  "3b69f2cd-11d6-44f8-9184-e9e0d0868b45": {
+    "id": "3b69f2cd-11d6-44f8-9184-e9e0d0868b45",
+    "name": "Product 61",
+    "description": "This is a sample product 61 with detailed description.",
+    "price": 163.49,
+    "image_url": "https://picsum.photos/300/300?random=61",
+    "created_at": "2025-06-21T15:30:23.233454",
+    "created_by": "system"
+  },
+  "6e8ad072-d529-4835-bb0e-a2041503cc5d": {
+    "id": "6e8ad072-d529-4835-bb0e-a2041503cc5d",
+    "name": "Product 62",
+    "description": "This is a sample product 62 with detailed description.",
+    "price": 165.99,
+    "image_url": "https://picsum.photos/300/300?random=62",
+    "created_at": "2025-06-21T15:30:23.233460",
+    "created_by": "system"
+  },
+  "5cdf8812-6a90-4831-9482-63d695c3d72e": {
+    "id": "5cdf8812-6a90-4831-9482-63d695c3d72e",
+    "name": "Product 63",
+    "description": "This is a sample product 63 with detailed description.",
+    "price": 168.49,
+    "image_url": "https://picsum.photos/300/300?random=63",
+    "created_at": "2025-06-21T15:30:23.233467",
+    "created_by": "system"
+  },
+  "a263ab33-c398-43e2-911a-6f53d74f6492": {
+    "id": "a263ab33-c398-43e2-911a-6f53d74f6492",
+    "name": "Product 64",
+    "description": "This is a sample product 64 with detailed description.",
+    "price": 170.99,
+    "image_url": "https://picsum.photos/300/300?random=64",
+    "created_at": "2025-06-21T15:30:23.233472",
+    "created_by": "system"
+  },
+  "4ed18dd8-7b1e-4dc9-ab28-d267fbd497f8": {
+    "id": "4ed18dd8-7b1e-4dc9-ab28-d267fbd497f8",
+    "name": "Product 65",
+    "description": "This is a sample product 65 with detailed description.",
+    "price": 173.49,
+    "image_url": "https://picsum.photos/300/300?random=65",
+    "created_at": "2025-06-21T15:30:23.233481",
+    "created_by": "system"
+  },
+  "85b07248-63f6-49e1-895c-aaa7900093e9": {
+    "id": "85b07248-63f6-49e1-895c-aaa7900093e9",
+    "name": "Product 66",
+    "description": "This is a sample product 66 with detailed description.",
+    "price": 175.99,
+    "image_url": "https://picsum.photos/300/300?random=66",
+    "created_at": "2025-06-21T15:30:23.233487",
+    "created_by": "system"
+  },
+  "620b5753-e16f-42b1-a974-ad3f94da528d": {
+    "id": "620b5753-e16f-42b1-a974-ad3f94da528d",
+    "name": "Product 67",
+    "description": "This is a sample product 67 with detailed description.",
+    "price": 178.49,
+    "image_url": "https://picsum.photos/300/300?random=67",
+    "created_at": "2025-06-21T15:30:23.233492",
+    "created_by": "system"
+  },
+  "0e80719c-2e3c-4df4-bde7-f7075565bbdd": {
+    "id": "0e80719c-2e3c-4df4-bde7-f7075565bbdd",
+    "name": "Product 68",
+    "description": "This is a sample product 68 with detailed description.",
+    "price": 180.99,
+    "image_url": "https://picsum.photos/300/300?random=68",
+    "created_at": "2025-06-21T15:30:23.233497",
+    "created_by": "system"
+  },
+  "74ec613f-5a00-43ea-8caa-0ee322dd9c25": {
+    "id": "74ec613f-5a00-43ea-8caa-0ee322dd9c25",
+    "name": "Product 69",
+    "description": "This is a sample product 69 with detailed description.",
+    "price": 183.49,
+    "image_url": "https://picsum.photos/300/300?random=69",
+    "created_at": "2025-06-21T15:30:23.233502",
+    "created_by": "system"
+  },
+  "c046c554-6b29-4ef1-8f94-e8af53e8c771": {
+    "id": "c046c554-6b29-4ef1-8f94-e8af53e8c771",
+    "name": "Product 70",
+    "description": "This is a sample product 70 with detailed description.",
+    "price": 185.99,
+    "image_url": "https://picsum.photos/300/300?random=70",
+    "created_at": "2025-06-21T15:30:23.233507",
+    "created_by": "system"
+  },
+  "757a5f2c-f15a-4154-94ab-89130685a123": {
+    "id": "757a5f2c-f15a-4154-94ab-89130685a123",
+    "name": "Product 71",
+    "description": "This is a sample product 71 with detailed description.",
+    "price": 188.49,
+    "image_url": "https://picsum.photos/300/300?random=71",
+    "created_at": "2025-06-21T15:30:23.233512",
+    "created_by": "system"
+  },
+  "312957e9-caa0-4e89-8cb1-db9823287768": {
+    "id": "312957e9-caa0-4e89-8cb1-db9823287768",
+    "name": "Product 72",
+    "description": "This is a sample product 72 with detailed description.",
+    "price": 190.99,
+    "image_url": "https://picsum.photos/300/300?random=72",
+    "created_at": "2025-06-21T15:30:23.233517",
+    "created_by": "system"
+  },
+  "e6aa67cd-90fe-4527-aaf4-05b110fbc3d3": {
+    "id": "e6aa67cd-90fe-4527-aaf4-05b110fbc3d3",
+    "name": "Product 73",
+    "description": "This is a sample product 73 with detailed description.",
+    "price": 193.49,
+    "image_url": "https://picsum.photos/300/300?random=73",
+    "created_at": "2025-06-21T15:30:23.233522",
+    "created_by": "system"
+  },
+  "1e748303-dd4b-4b2e-8b04-78284d2927b1": {
+    "id": "1e748303-dd4b-4b2e-8b04-78284d2927b1",
+    "name": "Product 74",
+    "description": "This is a sample product 74 with detailed description.",
+    "price": 195.99,
+    "image_url": "https://picsum.photos/300/300?random=74",
+    "created_at": "2025-06-21T15:30:23.233527",
+    "created_by": "system"
+  },
+  "6f96cdb2-64d9-4d76-8732-e629184a2aed": {
+    "id": "6f96cdb2-64d9-4d76-8732-e629184a2aed",
+    "name": "Product 75",
+    "description": "This is a sample product 75 with detailed description.",
+    "price": 198.49,
+    "image_url": "https://picsum.photos/300/300?random=75",
+    "created_at": "2025-06-21T15:30:23.233532",
+    "created_by": "system"
+  },
+  "96275040-a4fe-40f8-9620-e8677f79ae6a": {
+    "id": "96275040-a4fe-40f8-9620-e8677f79ae6a",
+    "name": "Product 76",
+    "description": "This is a sample product 76 with detailed description.",
+    "price": 200.99,
+    "image_url": "https://picsum.photos/300/300?random=76",
+    "created_at": "2025-06-21T15:30:23.233537",
+    "created_by": "system"
+  },
+  "bab03add-c178-4abf-b4fd-6665a192da75": {
+    "id": "bab03add-c178-4abf-b4fd-6665a192da75",
+    "name": "Product 77",
+    "description": "This is a sample product 77 with detailed description.",
+    "price": 203.49,
+    "image_url": "https://picsum.photos/300/300?random=77",
+    "created_at": "2025-06-21T15:30:23.233544",
+    "created_by": "system"
+  },
+  "37da49b9-3404-42b5-81be-2ec5aaa6a5f9": {
+    "id": "37da49b9-3404-42b5-81be-2ec5aaa6a5f9",
+    "name": "Product 78",
+    "description": "This is a sample product 78 with detailed description.",
+    "price": 205.99,
+    "image_url": "https://picsum.photos/300/300?random=78",
+    "created_at": "2025-06-21T15:30:23.233550",
+    "created_by": "system"
+  },
+  "fde28100-800f-4e39-a256-c8b85b633b43": {
+    "id": "fde28100-800f-4e39-a256-c8b85b633b43",
+    "name": "Product 79",
+    "description": "This is a sample product 79 with detailed description.",
+    "price": 208.49,
+    "image_url": "https://picsum.photos/300/300?random=79",
+    "created_at": "2025-06-21T15:30:23.233555",
+    "created_by": "system"
+  },
+  "ca8b9dbc-d04b-4f3b-a923-cfecb32588d5": {
+    "id": "ca8b9dbc-d04b-4f3b-a923-cfecb32588d5",
+    "name": "Product 80",
+    "description": "This is a sample product 80 with detailed description.",
+    "price": 210.99,
+    "image_url": "https://picsum.photos/300/300?random=80",
+    "created_at": "2025-06-21T15:30:23.233564",
+    "created_by": "system"
+  },
+  "616003f9-e85d-49f1-b81d-779dd7410ed2": {
+    "id": "616003f9-e85d-49f1-b81d-779dd7410ed2",
+    "name": "Product 81",
+    "description": "This is a sample product 81 with detailed description.",
+    "price": 213.49,
+    "image_url": "https://picsum.photos/300/300?random=81",
+    "created_at": "2025-06-21T15:30:23.233569",
+    "created_by": "system"
+  },
+  "7d9c5bd4-5ef6-4d35-bce9-ddebcf60f9bd": {
+    "id": "7d9c5bd4-5ef6-4d35-bce9-ddebcf60f9bd",
+    "name": "Product 82",
+    "description": "This is a sample product 82 with detailed description.",
+    "price": 215.99,
+    "image_url": "https://picsum.photos/300/300?random=82",
+    "created_at": "2025-06-21T15:30:23.233574",
+    "created_by": "system"
+  },
+  "2d909e0b-da9c-4eb5-a841-be546041fe95": {
+    "id": "2d909e0b-da9c-4eb5-a841-be546041fe95",
+    "name": "Product 83",
+    "description": "This is a sample product 83 with detailed description.",
+    "price": 218.49,
+    "image_url": "https://picsum.photos/300/300?random=83",
+    "created_at": "2025-06-21T15:30:23.233579",
+    "created_by": "system"
+  },
+  "7f2d10f2-aa57-428e-9b19-626336b19c49": {
+    "id": "7f2d10f2-aa57-428e-9b19-626336b19c49",
+    "name": "Product 84",
+    "description": "This is a sample product 84 with detailed description.",
+    "price": 220.99,
+    "image_url": "https://picsum.photos/300/300?random=84",
+    "created_at": "2025-06-21T15:30:23.233584",
+    "created_by": "system"
+  },
+  "47a78b5b-92ee-4ac3-a81a-0dbff230bac3": {
+    "id": "47a78b5b-92ee-4ac3-a81a-0dbff230bac3",
+    "name": "Product 85",
+    "description": "This is a sample product 85 with detailed description.",
+    "price": 223.49,
+    "image_url": "https://picsum.photos/300/300?random=85",
+    "created_at": "2025-06-21T15:30:23.233589",
+    "created_by": "system"
+  },
+  "b54d7c31-8272-49a5-ac19-55eb96281299": {
+    "id": "b54d7c31-8272-49a5-ac19-55eb96281299",
+    "name": "Product 86",
+    "description": "This is a sample product 86 with detailed description.",
+    "price": 225.99,
+    "image_url": "https://picsum.photos/300/300?random=86",
+    "created_at": "2025-06-21T15:30:23.233594",
+    "created_by": "system"
+  },
+  "e128295a-7fa7-4871-b1f5-ad0f02763af7": {
+    "id": "e128295a-7fa7-4871-b1f5-ad0f02763af7",
+    "name": "Product 87",
+    "description": "This is a sample product 87 with detailed description.",
+    "price": 228.49,
+    "image_url": "https://picsum.photos/300/300?random=87",
+    "created_at": "2025-06-21T15:30:23.233600",
+    "created_by": "system"
+  },
+  "5765ecef-18ce-4594-9aa2-6a6ea78edaf6": {
+    "id": "5765ecef-18ce-4594-9aa2-6a6ea78edaf6",
+    "name": "Product 88",
+    "description": "This is a sample product 88 with detailed description.",
+    "price": 230.99,
+    "image_url": "https://picsum.photos/300/300?random=88",
+    "created_at": "2025-06-21T15:30:23.233606",
+    "created_by": "system"
+  },
+  "5df93ee5-f3e9-4e1f-b6ea-fe31e5e089c1": {
+    "id": "5df93ee5-f3e9-4e1f-b6ea-fe31e5e089c1",
+    "name": "Product 89",
+    "description": "This is a sample product 89 with detailed description.",
+    "price": 233.49,
+    "image_url": "https://picsum.photos/300/300?random=89",
+    "created_at": "2025-06-21T15:30:23.233611",
+    "created_by": "system"
+  },
+  "ab4ea1b4-399f-4745-919e-91e1f9850a19": {
+    "id": "ab4ea1b4-399f-4745-919e-91e1f9850a19",
+    "name": "Product 90",
+    "description": "This is a sample product 90 with detailed description.",
+    "price": 235.99,
+    "image_url": "https://picsum.photos/300/300?random=90",
+    "created_at": "2025-06-21T15:30:23.233616",
+    "created_by": "system"
+  },
+  "21cfc4da-ebda-421d-800c-8c56bdb72c37": {
+    "id": "21cfc4da-ebda-421d-800c-8c56bdb72c37",
+    "name": "Product 91",
+    "description": "This is a sample product 91 with detailed description.",
+    "price": 238.49,
+    "image_url": "https://picsum.photos/300/300?random=91",
+    "created_at": "2025-06-21T15:30:23.233621",
+    "created_by": "system"
+  },
+  "0c9813b4-db4d-4042-a538-42eea71e7f47": {
+    "id": "0c9813b4-db4d-4042-a538-42eea71e7f47",
+    "name": "Product 92",
+    "description": "This is a sample product 92 with detailed description.",
+    "price": 240.99,
+    "image_url": "https://picsum.photos/300/300?random=92",
+    "created_at": "2025-06-21T15:30:23.233626",
+    "created_by": "system"
+  },
+  "bb1cdbdf-d384-4898-b84e-c0430e5381dd": {
+    "id": "bb1cdbdf-d384-4898-b84e-c0430e5381dd",
+    "name": "Product 93",
+    "description": "This is a sample product 93 with detailed description.",
+    "price": 243.49,
+    "image_url": "https://picsum.photos/300/300?random=93",
+    "created_at": "2025-06-21T15:30:23.233631",
+    "created_by": "system"
+  },
+  "223d62a5-8af0-4a96-bc72-417907b1522b": {
+    "id": "223d62a5-8af0-4a96-bc72-417907b1522b",
+    "name": "Product 94",
+    "description": "This is a sample product 94 with detailed description.",
+    "price": 245.99,
+    "image_url": "https://picsum.photos/300/300?random=94",
+    "created_at": "2025-06-21T15:30:23.233636",
+    "created_by": "system"
+  },
+  "b59f2ca3-55b3-4676-a69d-bd617d18a79e": {
+    "id": "b59f2ca3-55b3-4676-a69d-bd617d18a79e",
+    "name": "Product 95",
+    "description": "This is a sample product 95 with detailed description.",
+    "price": 248.49,
+    "image_url": "https://picsum.photos/300/300?random=95",
+    "created_at": "2025-06-21T15:30:23.233641",
+    "created_by": "system"
+  },
+  "99f18203-28f6-45c6-9153-f7c1ff53b618": {
+    "id": "99f18203-28f6-45c6-9153-f7c1ff53b618",
+    "name": "Product 96",
+    "description": "This is a sample product 96 with detailed description.",
+    "price": 250.99,
+    "image_url": "https://picsum.photos/300/300?random=96",
+    "created_at": "2025-06-21T15:30:23.233646",
+    "created_by": "system"
+  },
+  "bdf61c90-2aac-4917-835f-f0b5f5c3046c": {
+    "id": "bdf61c90-2aac-4917-835f-f0b5f5c3046c",
+    "name": "Product 97",
+    "description": "This is a sample product 97 with detailed description.",
+    "price": 253.49,
+    "image_url": "https://picsum.photos/300/300?random=97",
+    "created_at": "2025-06-21T15:30:23.233651",
+    "created_by": "system"
+  },
+  "372afab2-c274-4812-9601-1ffc256ca0a0": {
+    "id": "372afab2-c274-4812-9601-1ffc256ca0a0",
+    "name": "Product 98",
+    "description": "This is a sample product 98 with detailed description.",
+    "price": 255.99,
+    "image_url": "https://picsum.photos/300/300?random=98",
+    "created_at": "2025-06-21T15:30:23.233656",
+    "created_by": "system"
+  },
+  "45e5307c-d517-40fc-8ac7-3e7af228311d": {
+    "id": "45e5307c-d517-40fc-8ac7-3e7af228311d",
+    "name": "Product 99",
+    "description": "This is a sample product 99 with detailed description.",
+    "price": 258.49,
+    "image_url": "https://picsum.photos/300/300?random=99",
+    "created_at": "2025-06-21T15:30:23.233664",
+    "created_by": "system"
+  },
+  "ac3e02e4-862e-4b53-8c4d-1c9bdb3f1aec": {
+    "id": "ac3e02e4-862e-4b53-8c4d-1c9bdb3f1aec",
+    "name": "Product 100",
+    "description": "This is a sample product 100 with detailed description.",
+    "price": 260.99,
+    "image_url": "https://picsum.photos/300/300?random=100",
+    "created_at": "2025-06-21T15:30:23.233671",
+    "created_by": "system"
+  }
+}

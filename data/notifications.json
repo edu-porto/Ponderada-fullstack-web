@@ -1,0 +1,14 @@
+{
+  "e41c61b1-0e76-4140-83d7-fa05543ac12a": {
+    "id": "e41c61b1-0e76-4140-83d7-fa05543ac12a",
+    "message": "New product 'Edu' has been added!",
+    "created_at": "2025-06-22T19:48:06.756344",
+    "read": false
+  },
+  "e9e0d64e-50a8-4ab5-9193-66a5deac2809": {
+    "id": "e9e0d64e-50a8-4ab5-9193-66a5deac2809",
+    "message": "New product 'Fotinha' has been added!",
+    "created_at": "2025-06-22T20:04:14.580523",
+    "read": false
+  }
+}

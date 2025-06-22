@@ -1,0 +1,20 @@
+{
+  "c5061d65-30d0-40b5-86ad-f7b624a57b68": {
+    "id": "c5061d65-30d0-40b5-86ad-f7b624a57b68",
+    "name": "Ademir",
+    "email": "admin@example.com",
+    "password": "55a5e9e78207b4df8699d60886fa070079463547b095d1a05bc719bb4e6cd251",
+    "phone": "119123456789",
+    "profile_image": "https://picsum.photos/150/150?random=admin",
+    "created_at": "2025-06-22T18:34:33.824533"
+  },
+  "8cb88824-eef8-44df-9f6c-289599b9dac0": {
+    "id": "8cb88824-eef8-44df-9f6c-289599b9dac0",
+    "name": "eduardo",
+    "email": "eduardo.porto@sou.inteli.edu.br",
+    "password": "c00357563669ed21c34e13687cad669038eb88a2831fc8109b40ddc62f63e934",
+    "phone": "",
+    "profile_image": "https://picsum.photos/150/150?random=default",
+    "created_at": "2025-06-22T19:46:50.046432"
+  }
+}

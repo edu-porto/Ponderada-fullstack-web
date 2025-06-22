@@ -1,0 +1,11 @@
+{
+  "0cd57569-10a3-44de-835c-218b4077194b": {
+    "id": "0cd57569-10a3-44de-835c-218b4077194b",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "phone": "+1234567890",
+    "profile_image": "https://picsum.photos/150/150?random=admin",
+    "created_at": "2025-06-21T15:30:23.234784"
+  }
+}
