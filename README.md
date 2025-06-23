@@ -2,6 +2,9 @@
 
 Um aplicativo completo de gerenciamento de produtos desenvolvido com Flutter para o frontend e Python Flask para o backend.
 
+## Atividade em Funcionamento 
+https://www.youtube.com/watch?v=T3BNST0HZjM 
+
 ## 🚀 Funcionalidades
 
 - **🔐 Autenticação**: Login e registro de usuários
@@ -233,14 +236,6 @@ flutter build apk --release
 flutter build ios --release
 ```
 
-## 📞 Suporte
-
-Se você encontrar problemas:
-
-1. Verifique se todas as dependências estão instaladas
-2. Certifique-se de que o servidor Python está rodando
-3. Verifique os logs do console para erros específicos
-4. Teste em diferentes navegadores/dispositivos
 
 ## 📄 Licença
 
