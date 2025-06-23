@@ -9,6 +9,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,6 +31,8 @@ class MyApp extends StatelessWidget {
 }
 
 class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
   @override
   _SplashScreenState createState() => _SplashScreenState();
 }
@@ -83,6 +87,8 @@ class _SplashScreenState extends State<SplashScreen> {
 }
 
 class LoginScreen extends StatefulWidget {
+  const LoginScreen({super.key});
+
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
@@ -268,7 +274,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   void _showResetPasswordDialog() {
-    final _resetEmailController = TextEditingController();
+    final resetEmailController = TextEditingController();
     
     showDialog(
       context: context,
@@ -280,7 +286,7 @@ class _LoginScreenState extends State<LoginScreen> {
             Text('Enter your email address to receive reset instructions.'),
             SizedBox(height: 20),
             TextFormField(
-              controller: _resetEmailController,
+              controller: resetEmailController,
               keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
                 labelText: 'Email',
@@ -296,12 +302,12 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
           ElevatedButton(
             onPressed: () async {
-              if (_resetEmailController.text.isNotEmpty) {
+              if (resetEmailController.text.isNotEmpty) {
                 try {
                   final response = await http.post(
                     Uri.parse('http://localhost:5000/api/reset-password'),
                     headers: {'Content-Type': 'application/json'},
-                    body: json.encode({'email': _resetEmailController.text}),
+                    body: json.encode({'email': resetEmailController.text}),
                   );
                   
                   Navigator.pop(context);
@@ -327,6 +333,8 @@ class _LoginScreenState extends State<LoginScreen> {
 }
 
 class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({super.key});
+
   @override
   _RegisterScreenState createState() => _RegisterScreenState();
 }
@@ -582,6 +590,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
 }
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
@@ -855,7 +865,7 @@ class _HomeScreenState extends State<HomeScreen> {
 class ProductDetailScreen extends StatelessWidget {
   final dynamic product;
 
-  ProductDetailScreen({required this.product});
+  const ProductDetailScreen({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {
@@ -941,6 +951,8 @@ class ProductDetailScreen extends StatelessWidget {
 }
 
 class ProfileScreen extends StatefulWidget {
+  const ProfileScreen({super.key});
+
   @override
   _ProfileScreenState createState() => _ProfileScreenState();
 }
@@ -994,12 +1006,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   void _showEditProfileDialog() {
-    final _nameController = TextEditingController(text: userData['name'] ?? '');
-    final _phoneController = TextEditingController(text: userData['phone'] ?? '');
-    final _passwordController = TextEditingController();
-    final _confirmPasswordController = TextEditingController();
-    final _formKey = GlobalKey<FormState>();
-    bool _isLoading = false;
+    final nameController = TextEditingController(text: userData['name'] ?? '');
+    final phoneController = TextEditingController(text: userData['phone'] ?? '');
+    final passwordController = TextEditingController();
+    final confirmPasswordController = TextEditingController();
+    final formKey = GlobalKey<FormState>();
+    bool isLoading = false;
 
     showDialog(
       context: context,
@@ -1007,13 +1019,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
         builder: (context, setDialogState) => AlertDialog(
           title: Text('Edit Profile'),
           content: Form(
-            key: _formKey,
+            key: formKey,
             child: SingleChildScrollView(
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   TextFormField(
-                    controller: _nameController,
+                    controller: nameController,
                     decoration: InputDecoration(
                       labelText: 'Full Name',
                       border: OutlineInputBorder(),
@@ -1027,7 +1039,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                   SizedBox(height: 16),
                   TextFormField(
-                    controller: _phoneController,
+                    controller: phoneController,
                     decoration: InputDecoration(
                       labelText: 'Phone Number',
                       border: OutlineInputBorder(),
@@ -1036,7 +1048,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                   SizedBox(height: 16),
                   TextFormField(
-                    controller: _passwordController,
+                    controller: passwordController,
                     decoration: InputDecoration(
                       labelText: 'New Password (optional)',
                       border: OutlineInputBorder(),
@@ -1051,14 +1063,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                   SizedBox(height: 16),
                   TextFormField(
-                    controller: _confirmPasswordController,
+                    controller: confirmPasswordController,
                     decoration: InputDecoration(
                       labelText: 'Confirm New Password',
                       border: OutlineInputBorder(),
                     ),
                     obscureText: true,
                     validator: (value) {
-                      if (_passwordController.text.isNotEmpty && value != _passwordController.text) {
+                      if (passwordController.text.isNotEmpty && value != passwordController.text) {
                         return 'Passwords do not match';
                       }
                       return null;
@@ -1070,15 +1082,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ),
           actions: [
             TextButton(
-              onPressed: _isLoading ? null : () => Navigator.pop(context),
+              onPressed: isLoading ? null : () => Navigator.pop(context),
               child: Text('Cancel'),
             ),
             ElevatedButton(
-              onPressed: _isLoading ? null : () async {
-                if (!_formKey.currentState!.validate()) return;
+              onPressed: isLoading ? null : () async {
+                if (!formKey.currentState!.validate()) return;
 
                 setDialogState(() {
-                  _isLoading = true;
+                  isLoading = true;
                 });
 
                 try {
@@ -1086,12 +1098,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   String? token = prefs.getString('auth_token');
 
                   Map<String, dynamic> updateData = {
-                    'name': _nameController.text,
-                    'phone': _phoneController.text,
+                    'name': nameController.text,
+                    'phone': phoneController.text,
                   };
 
-                  if (_passwordController.text.isNotEmpty) {
-                    updateData['password'] = _passwordController.text;
+                  if (passwordController.text.isNotEmpty) {
+                    updateData['password'] = passwordController.text;
                   }
 
                   final response = await http.put(
@@ -1124,10 +1136,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 }
 
                 setDialogState(() {
-                  _isLoading = false;
+                  isLoading = false;
                 });
               },
-              child: _isLoading
+              child: isLoading
                   ? SizedBox(
                       width: 20,
                       height: 20,
@@ -1255,6 +1267,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
 
 class NotificationsScreen extends StatefulWidget {
+  const NotificationsScreen({super.key});
+
   @override
   _NotificationsScreenState createState() => _NotificationsScreenState();
 }
