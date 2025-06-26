@@ -1,4 +1,4 @@
-# 📱 Aplicativo de Produtos - Flutter + Python
+# 📱 Ponderada Flutter & Python
 
 Um aplicativo completo de gerenciamento de produtos desenvolvido com **Flutter** para o frontend e **Python Flask** para o backend, utilizando **Docker** para containerização.
 
@@ -11,6 +11,9 @@ Um aplicativo completo de gerenciamento de produtos desenvolvido com **Flutter**
 - **📸 Upload de Imagens**: Adicionar imagens aos produtos (câmera/galeria)
 - **🌐 Suporte Multiplataforma**: Funciona em Android, iOS e Web
 - **🐳 Containerização**: Deploy com Docker e Docker Compose
+
+## Demonstração 
+[![Watch the video](https://img.youtube.com/vi/d1HSaqe9Oc0/0.jpg)](https://www.youtube.com/watch?v=d1HSaqe9Oc0)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -67,7 +70,7 @@ cd pond_flutter
 ### 2. Inicie o Backend com Docker
 ```bash
 cd python_server
-docker-compose up -d
+docker-compose up 
 ```
 
 ### 3. Execute o Aplicativo Flutter
