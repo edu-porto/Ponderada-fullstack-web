@@ -1,4 +1,4 @@
-# 🐍 Servidor Python - Backend API
+f# 🐍 Servidor Python - Backend API
 
 Este diretório contém o servidor backend Python Flask que fornece a API para o aplicativo Flutter.
 
@@ -304,3 +304,194 @@ Para problemas com o servidor:
 ---
 
 **Desenvolvido com Flask ❤️** 
+
+## 🚀 How to Run the Flutter App on Android
+
+### Step 1: Check Flutter Setup
+
+First, verify your Flutter installation and Android setup:
+
+```bash
+flutter doctor
+```
+
+This will show you what's missing. You should see:
+- ✅ Flutter SDK
+- ✅ Android toolchain
+- ✅ Android Studio (optional but recommended)
+- ✅ Connected devices
+
+### Step 2: Set Up Android Development
+
+If you don't have Android development set up:
+
+1. **Install Android Studio** (recommended):
+   - Download from: https://developer.android.com/studio
+   - Install and set up Android SDK
+
+2. **Or use command line only**:
+   ```bash
+   # Install Android SDK command line tools
+   flutter doctor --android-licenses
+   ```
+
+### Step 3: Connect Android Device or Emulator
+
+#### Option A: Physical Android Device
+1. **Enable Developer Options**:
+   - Go to Settings → About Phone
+   - Tap "Build Number" 7 times
+   - Go back to Settings → Developer Options
+   - Enable "USB Debugging"
+
+2. **Connect via USB**:
+   ```bash
+   # Check if device is detected
+   flutter devices
+   ```
+
+#### Option B: Android Emulator
+1. **Create an emulator**:
+   ```bash
+   # List available emulators
+   flutter emulators
+   
+   # Create a new emulator (if needed)
+   flutter emulators --create --name Pixel_4_API_30
+   
+   # Launch emulator
+   flutter emulators --launch Pixel_4_API_30
+   ```
+
+### Step 4: Start the Backend Server
+
+Make sure your Python backend is running:
+
+```bash
+# In the main project directory
+python app.py
+```
+
+The server should be running on `http://localhost:5000`
+
+### Step 5: Run the Flutter App
+
+Navigate to the Flutter project directory and run:
+
+```bash
+# Navigate to the Flutter project
+cd product_app/product_app
+
+# Get dependencies
+flutter pub get
+
+# Run on Android
+flutter run
+```
+
+### Step 6: Alternative Commands
+
+If you have multiple devices connected:
+
+```bash
+# List available devices
+flutter devices
+
+# Run on specific device
+flutter run -d <device-id>
+
+# Run in release mode (faster)
+flutter run --release
+
+# Run with specific flavor
+flutter run --flavor development
+```
+
+## 🔧 Troubleshooting Common Issues
+
+### Issue 1: "No connected devices"
+```bash
+# Check if devices are detected
+flutter devices
+
+# If using physical device, make sure:
+# - USB debugging is enabled
+# - Device is connected via USB
+# - You've accepted the USB debugging prompt on your phone
+```
+
+### Issue 2: "Android SDK not found"
+```bash
+# Set ANDROID_HOME environment variable
+export ANDROID_HOME=/path/to/your/android/sdk
+
+# Or install Android Studio and let it set up the SDK
+```
+
+### Issue 3: "Gradle build failed"
+```bash
+# Clean and rebuild
+flutter clean
+flutter pub get
+flutter run
+```
+
+### Issue 4: "Backend connection failed"
+Make sure:
+- Python server is running on `http://localhost:5000`
+- Your Android device/emulator can access localhost
+- For emulator, use `10.0.2.2:5000` instead of `localhost:5000`
+
+## 📱 Building APK for Distribution
+
+To create an APK file for distribution:
+
+```bash
+# Build APK
+flutter build apk
+
+# Build APK with specific flavor
+flutter build apk --flavor production
+
+# Build split APKs (smaller size)
+flutter build apk --split-per-abi
+```
+
+The APK will be created at: `build/app/outputs/flutter-apk/app-release.apk`
+
+## 🎯 Quick Start Commands
+
+Here's the complete sequence to run on Android:
+
+```bash
+# 1. Start backend (in one terminal)
+python app.py
+
+# 2. Run Flutter app (in another terminal)
+cd product_app/product_app
+flutter pub get
+flutter run
+```
+
+## 📋 Android-Specific Features
+
+The app includes these Android-specific features:
+- ✅ Camera access for product photos
+- ✅ Gallery access for image selection
+- ✅ Local storage for user preferences
+- ✅ Material Design 3 UI
+- ✅ Native Android navigation
+- ✅ Push notifications (ready for implementation)
+
+## 🔍 Testing on Different Android Versions
+
+To test on different Android API levels:
+
+```bash
+# Create emulators with different API levels
+flutter emulators --create --name Pixel_4_API_21  # Android 5.0
+flutter emulators --create --name Pixel_4_API_30  # Android 11
+flutter emulators --create --name Pixel_4_API_33  # Android 13
+```
+
+Would you like me to help you with any specific step, or do you have an Android device/emulator ready to test with? 

@@ -1,246 +1,331 @@
 # 📱 Aplicativo de Produtos - Flutter + Python
 
-Um aplicativo completo de gerenciamento de produtos desenvolvido com Flutter para o frontend e Python Flask para o backend.
-
-## Atividade em Funcionamento 
-https://www.youtube.com/watch?v=T3BNST0HZjM 
+Um aplicativo completo de gerenciamento de produtos desenvolvido com **Flutter** para o frontend e **Python Flask** para o backend, utilizando **Docker** para containerização.
 
 ## 🚀 Funcionalidades
 
-- **🔐 Autenticação**: Login e registro de usuários
+- **🔐 Autenticação**: Login e registro de usuários com JWT
 - **📦 Gerenciamento de Produtos**: Visualizar, pesquisar e adicionar produtos
 - **👤 Perfil do Usuário**: Editar informações do perfil
-- **🔔 Notificações**: Visualizar e gerenciar notificações
-- **📸 Upload de Imagens**: Adicionar imagens aos produtos
-- **🌐 Suporte Web**: Funciona tanto em dispositivos móveis quanto na web
+- **🔔 Notificações**: Sistema de notificações em tempo real
+- **📸 Upload de Imagens**: Adicionar imagens aos produtos (câmera/galeria)
+- **🌐 Suporte Multiplataforma**: Funciona em Android, iOS e Web
+- **🐳 Containerização**: Deploy com Docker e Docker Compose
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend (Flutter)
+- **Flutter SDK** - Framework de desenvolvimento multiplataforma
+- **HTTP** - Cliente HTTP para comunicação com API
+- **SharedPreferences** - Armazenamento local de dados
+- **Image Picker** - Seleção de imagens da câmera/galeria
+
+### Backend (Python)
+- **Flask** - Framework web Python
+- **SQLAlchemy** - ORM para banco de dados
+- **PostgreSQL** - Banco de dados (opcional, atualmente usando JSON)
+- **JWT** - Autenticação com tokens
+- **CORS** - Cross-Origin Resource Sharing
+
+### Infraestrutura
+- **Docker** - Containerização da aplicação
+- **Docker Compose** - Orquestração de containers
+- **Nginx** - Proxy reverso para produção
 
 ## 📋 Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
 
-- **Python 3.7+**
+- **Docker** e **Docker Compose**
 - **Flutter SDK** (versão estável)
 - **Git**
+- **Python 3.7+** (para desenvolvimento local)
 
 ### Instalando o Flutter
 
 1. **Baixe o Flutter SDK:**
    - Acesse: https://flutter.dev/docs/get-started/install
-   - Baixe a versão para Windows
+   - Baixe a versão para seu sistema operacional
 
-2. **Extraia e configure:**
+2. **Configure o ambiente:**
    ```bash
-   # Extraia o arquivo zip para C:\flutter
-   # Adicione C:\flutter\bin ao PATH do sistema
-   ```
-
-3. **Verifique a instalação:**
-   ```bash
+   # Adicione o Flutter ao PATH
+   export PATH="$PATH:`pwd`/flutter/bin"
+   
+   # Verifique a instalação
    flutter doctor
    ```
 
-## 🛠️ Configuração do Projeto
+## 🚀 Configuração Rápida
 
 ### 1. Clone o Repositório
-
 ```bash
 git clone <url-do-repositorio>
 cd pond_flutter
 ```
 
-### 2. Configurar o Backend Python
-
-1. **Instalar dependências Python:**
-   ```bash
-   pip install flask flask-cors
-   ```
-
-2. **Iniciar o servidor backend:**
-   ```bash
-   python app.py
-   ```
-
-   O servidor estará rodando em: `http://localhost:5000`
-
-### 3. Configurar o Aplicativo Flutter
-
-1. **Navegar para o diretório do projeto Flutter:**
-   ```bash
-   cd product_app/product_app
-   ```
-
-2. **Instalar dependências Flutter:**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Executar o aplicativo:**
-   ```bash
-   flutter run
-   ```
-
-## 🎯 Como Usar
-
-### Credenciais Padrão
-
-O sistema cria automaticamente um usuário administrador:
-- **Email**: `admin@example.com`
-- **Senha**: `admin123`
-
-### Funcionalidades Principais
-
-#### 🔐 Autenticação
-1. **Login**: Use suas credenciais para acessar o sistema
-2. **Registro**: Crie uma nova conta se necessário
-3. **Recuperação de Senha**: Use a opção "Esqueci a senha"
-
-#### 📦 Produtos
-1. **Visualizar Produtos**: Lista paginada de todos os produtos
-2. **Pesquisar**: Use a barra de pesquisa para encontrar produtos específicos
-3. **Adicionar Produto**: Clique no botão "+" para adicionar um novo produto
-4. **Upload de Imagem**: Selecione uma imagem do seu dispositivo ou forneça uma URL
-
-#### 👤 Perfil
-1. **Visualizar Perfil**: Acesse suas informações pessoais
-2. **Editar Perfil**: Modifique nome, telefone e senha
-3. **Notificações**: Visualize suas notificações
-
-## 🌐 Executando na Web
-
-Para executar o aplicativo na web:
-
+### 2. Inicie o Backend com Docker
 ```bash
-flutter run -d chrome
+cd python_server
+docker-compose up -d
 ```
 
-**Nota**: O upload de imagens funciona perfeitamente na web com as correções implementadas.
+### 3. Execute o Aplicativo Flutter
+```bash
+cd product_app/product_app
+flutter pub get
+flutter run
+```
 
 ## 📁 Estrutura do Projeto
 
 ```
 pond_flutter/
-├── app.py                          # Servidor Python Flask
-├── main.dart                       # Aplicativo Flutter principal
-├── add_product_screen.dart         # Tela de adicionar produto
-├── product_app/                    # Projeto Flutter
-│   └── product_app/
-│       ├── lib/
-│       │   ├── main.dart
-│       │   └── add_product_screen.dart
-│       ├── pubspec.yaml
-│       └── ...
-├── python_server/                  # Dados do servidor
-│   ├── data/
-│   │   ├── products.json
-│   │   ├── users.json
-│   │   └── ...
-│   └── images/                     # Imagens enviadas
-└── README.md
+├── 📁 python_server/              # Backend Python
+│   ├── 📄 docker-compose.yml      # Configuração Docker
+│   ├── 📄 Dockerfile              # Container Flask
+│   ├── 📁 nginx/                  # Configuração Nginx
+│   └── 📁 python_server/
+│       ├── 📄 app.py              # Aplicação Flask principal
+│       ├── 📄 config.py           # Configurações
+│       ├── 📁 controllers/        # Controladores da API
+│       ├── 📁 models/             # Modelos de dados
+│       ├── 📁 routes/             # Rotas da API
+│       ├── 📁 utils/              # Utilitários
+│       └── 📁 data/               # Dados JSON (banco temporário)
+├── 📁 product_app/                # Aplicativo Flutter
+│   └── 📁 product_app/
+│       ├── 📁 lib/                # Código Dart
+│       │   ├── 📄 main.dart       # Arquivo principal
+│       │   ├── 📄 config.dart     # Configurações
+│       │   └── 📄 add_product_screen.dart
+│       ├── 📄 pubspec.yaml        # Dependências Flutter
+│       └── 📁 android/            # Configuração Android
+├── 📄 start_server.py             # Script de desenvolvimento
+├── 📄 test_docker_connection.py   # Teste de conectividade
+└── 📄 README.md                   # Este arquivo
 ```
 
-## 🔧 Endpoints da API
+## 🔧 Configuração Detalhada
+
+### Opção 1: Deploy com Docker (Recomendado)
+
+#### Backend
+```bash
+cd python_server
+docker-compose up -d
+```
+
+O servidor estará disponível em:
+- **Web**: `http://localhost:80`
+- **Android Emulator**: `http://10.0.2.2:80`
+- **iOS Simulator**: `http://localhost:80`
+
+#### Frontend
+```bash
+cd product_app/product_app
+flutter pub get
+flutter run
+```
+
+### Opção 2: Desenvolvimento Local
+
+#### Backend
+```bash
+cd python_server/python_server
+pip install -r requirements.txt
+python app.py
+```
+
+#### Frontend
+```bash
+cd product_app/product_app
+flutter pub get
+flutter run
+```
+
+## 🔌 Endpoints da API
 
 ### Autenticação
 - `POST /api/register` - Registro de usuário
 - `POST /api/login` - Login de usuário
 - `POST /api/logout` - Logout
-- `POST /api/reset-password` - Recuperação de senha
+- `PUT /api/profile` - Atualizar perfil
 
 ### Produtos
 - `GET /api/products` - Listar produtos (com paginação e busca)
 - `POST /api/products` - Adicionar novo produto
-- `GET /api/products/<id>` - Obter produto específico
-
-### Usuário
-- `GET /api/profile` - Obter perfil do usuário
-- `PUT /api/profile` - Atualizar perfil
-
-### Imagens
+- `GET /api/products/{id}` - Detalhes do produto
 - `POST /api/upload-image` - Upload de imagem
-- `GET /images/<filename>` - Servir imagem
 
 ### Notificações
 - `GET /api/notifications` - Listar notificações
-- `PUT /api/notifications/<id>/read` - Marcar como lida
+- `PUT /api/notifications/{id}/read` - Marcar como lida
+
+## 🧪 Testando a Aplicação
+
+### 1. Verificar Conectividade
+```bash
+python test_docker_connection.py
+```
+
+### 2. Credenciais de Teste
+- **Email**: `admin@example.com`
+- **Senha**: `admin123`
+
+### 3. Fluxo de Teste
+1. **Login** com as credenciais acima
+2. **Adicionar produto** usando o botão "+"
+3. **Verificar notificação** no perfil
+4. **Editar perfil** e verificar atualizações
 
 ## 🐛 Solução de Problemas
 
-### Erro de SDK do Dart
-Se você encontrar erro de versão do SDK:
+### Problemas Comuns
+
+#### 1. "Connection refused" no Flutter
+- **Causa**: Servidor não está rodando
+- **Solução**: Verifique se o Docker está ativo
+  ```bash
+  docker-compose ps
+  docker-compose logs -f
+  ```
+
+#### 2. "Invalid response format" nas notificações
+- **Causa**: Formato de resposta incorreto
+- **Solução**: Reinicie o Docker para recriar os dados
+  ```bash
+  docker-compose down
+  docker-compose up -d
+  ```
+
+#### 3. "Type error" nos produtos
+- **Causa**: Dados corrompidos ou formato incorreto
+- **Solução**: Limpe os dados e reinicie
+  ```bash
+  docker-compose down -v
+  docker-compose up -d
+  ```
+
+#### 4. Carregamento infinito no perfil
+- **Causa**: Dados de usuário corrompidos
+- **Solução**: Use o botão de refresh ou faça logout/login
+
+### Comandos Docker Úteis
+
 ```bash
-# O arquivo pubspec.yaml já está configurado corretamente
-# Se necessário, execute:
-flutter clean
-flutter pub get
+# Verificar status dos containers
+docker-compose ps
+
+# Ver logs em tempo real
+docker-compose logs -f
+
+# Reiniciar serviços
+docker-compose restart
+
+# Reconstruir containers
+docker-compose up --build -d
+
+# Parar todos os serviços
+docker-compose down
+
+# Parar e remover volumes
+docker-compose down -v
 ```
-
-### Erro de Upload de Imagem na Web
-O problema de `Image.file` na web foi corrigido. O aplicativo agora:
-- Usa `Image.memory` para web
-- Usa `Image.file` para dispositivos móveis
-
-### Servidor não Inicia
-```bash
-# Verifique se as dependências estão instaladas
-pip install flask flask-cors
-
-# Verifique se a porta 5000 está livre
-# Se necessário, altere a porta no app.py
-```
-
-### Flutter não Executa
-```bash
-# Verifique se o Flutter está instalado
-flutter doctor
-
-# Limpe o cache se necessário
-flutter clean
-flutter pub get
-```
-
-## 📱 Plataformas Suportadas
-
-- ✅ **Android**
-- ✅ **iOS**
-- ✅ **Web** (Chrome, Firefox, Safari, Edge)
-- ✅ **Windows**
-- ✅ **macOS**
-- ✅ **Linux**
 
 ## 🔒 Segurança
 
-- Senhas são criptografadas usando SHA-256
-- Tokens de autenticação com expiração
-- Validação de entrada em todos os formulários
-- CORS configurado para desenvolvimento
+- **JWT Tokens** para autenticação
+- **CORS** configurado para desenvolvimento
+- **Validação de entrada** em todos os endpoints
+- **Sanitização de dados** antes do armazenamento
 
-## 🚀 Deploy
+## 📱 Funcionalidades do App
 
-### Backend (Python)
-Para produção, use um servidor WSGI como Gunicorn:
+### Tela de Login/Registro
+- ✅ Validação de email e senha
+- ✅ Recuperação de senha
+- ✅ Registro de novos usuários
+
+### Tela Principal (Produtos)
+- ✅ Lista de produtos com paginação
+- ✅ Busca por nome
+- ✅ Pull-to-refresh
+- ✅ Carregamento infinito
+- ✅ Detalhes do produto
+
+### Adicionar Produto
+- ✅ Formulário completo
+- ✅ Upload de imagem (câmera/galeria)
+- ✅ URL de imagem alternativa
+- ✅ Validação de campos
+
+### Perfil do Usuário
+- ✅ Informações do usuário
+- ✅ Edição de perfil
+- ✅ Sistema de notificações
+- ✅ Logout seguro
+
+### Notificações
+- ✅ Lista de notificações
+- ✅ Marcar como lida
+- ✅ Indicadores visuais
+- ✅ Timestamps relativos
+
+## 🚀 Deploy em Produção
+
+### 1. Configurar Variáveis de Ambiente
 ```bash
-pip install gunicorn
-gunicorn -w 4 -b 0.0.0.0:5000 app:app
+# .env
+SECRET_KEY=your-super-secret-key
+DATABASE_URL=postgresql://user:password@host:5432/dbname
+API_URL=https://yourdomain.com
 ```
 
-### Frontend (Flutter)
-Para build de produção:
+### 2. Deploy com Docker
 ```bash
-# Web
-flutter build web
-
-# Android
-flutter build apk --release
-
-# iOS
-flutter build ios --release
+docker-compose -f docker-compose.prod.yml up -d
 ```
 
+### 3. Configurar Nginx
+```nginx
+server {
+    listen 80;
+    server_name yourdomain.com;
+    
+    location / {
+        proxy_pass http://app:5000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+```
+
+## 🤝 Contribuindo
+
+1. **Fork** o projeto
+2. **Crie** uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** para a branch (`git push origin feature/AmazingFeature`)
+5. **Abra** um Pull Request
 
 ## 📄 Licença
 
-Este projeto é de código aberto e está disponível sob a licença MIT.
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## 👨‍💻 Desenvolvido por
+
+- **Nome**: [Seu Nome]
+- **Email**: [seu.email@exemplo.com]
+- **GitHub**: [@seu-usuario]
+
+## 🙏 Agradecimentos
+
+- Flutter Team pelo framework incrível
+- Python Flask pela simplicidade e poder
+- Docker pela facilidade de deploy
+- Comunidade open source por todas as bibliotecas
 
 ---
 
-**Desenvolvido com ❤️ usando Flutter e Python** 
+**⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!** 

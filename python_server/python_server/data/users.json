@@ -7,5 +7,14 @@
     "phone": "+1234567890",
     "profile_image": "https://picsum.photos/150/150?random=admin",
     "created_at": "2025-06-21T15:30:23.234784"
+  },
+  "e635bc32-7483-45eb-bf1c-9ec66b81a628": {
+    "id": "e635bc32-7483-45eb-bf1c-9ec66b81a628",
+    "name": "Eduardo ",
+    "email": "edu@gmail.com",
+    "password": "55a5e9e78207b4df8699d60886fa070079463547b095d1a05bc719bb4e6cd251",
+    "phone": "8888",
+    "profile_image": "https://picsum.photos/150/150?random=default",
+    "created_at": "2025-06-22T23:02:19.684618"
   }
 }

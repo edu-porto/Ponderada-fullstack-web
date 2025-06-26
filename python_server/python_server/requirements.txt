@@ -1,0 +1,9 @@
+pip>=24.0
+setuptools>=68.0
+wheel>=0.41
+Flask==2.2.2
+Flask-Cors==3.0.10
+SQLAlchemy==2.0.20
+psycopg2-binary==2.9.7
+PyJWT==2.6.0
+Werkzeug==2.2.3 
